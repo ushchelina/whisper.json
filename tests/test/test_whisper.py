@@ -18,7 +18,7 @@ class TestWhisper(TestBase):
 
         whisper.faster_whisper = mock_whisper
         whisper.segments_to_json = lambda segments, duration, progress_bar, now: ['xxx']
-        assert whisper.decode(self.fixture('short.mp3')) == ['xxx']
+        assert whisper.decode(self.fixture('short.mp3'), whisper.Device.Cpu) == ['xxx']
 
         whisper.faster_whisper = faster_whisper
         whisper.segments_to_json = segments_to_json

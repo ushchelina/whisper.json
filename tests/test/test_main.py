@@ -19,9 +19,9 @@ class TestMain(TestBase):
         ])
         decode = main.decode
 
-        def mock_decode(mp3, language=None):
+        def mock_decode(mp3, device, language=None):
             """Mock decode function."""
-            print(mp3, language)
+            print(mp3, device, language)
             return json.load(open(self.fixture('short.json'), 'r', encoding='utf-8'))
 
         main.decode = mock_decode
