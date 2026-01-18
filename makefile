@@ -22,8 +22,11 @@ PIP = $(PYTHON) -m pip install
 
 all: tests
 
-json:
+xxx:
 	$(PYTHON) $(SOURCE)/main.py build/xxx.mp3 build/xxx.json
+
+json:
+	$(PYTHON) $(SOURCE)/main.py ~/task/xxx.mp3 ~/task/xxx.json
 
 test:
 	$(PTEST) -s $(TESTS)/test/$(T)
