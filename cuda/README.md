@@ -18,10 +18,10 @@ sudo apt install python3.8-dev python3.8-venv
 
 ## Links
 
--[Could not load library libcudnn_ops_infer.so.8](https://github.com/SYSTRAN/faster-whisper/issues/516#issuecomment-1972615012)
--[Issues Installing CUDA and cuDNN on Ubuntu 24.04](https://askubuntu.com/questions/1520509/issues-installing-cuda-and-cudnn-on-ubuntu-24-04)
--[https://askubuntu.com/questions/1536271/can-i-install-cuda-11-4-in-ubuntu-24-04-if-so-how](https://askubuntu.com/questions/1536271/can-i-install-cuda-11-4-in-ubuntu-24-04-if-so-how)
--[v4.5.0 is not compatible with torch>=2.*.*+cu121](https://github.com/OpenNMT/CTranslate2/issues/1806#issue-2610861176)
+- [Could not load library libcudnn_ops_infer.so.8](https://github.com/SYSTRAN/faster-whisper/issues/516#issuecomment-1972615012)
+- [Issues Installing CUDA and cuDNN on Ubuntu 24.04](https://askubuntu.com/questions/1520509/issues-installing-cuda-and-cudnn-on-ubuntu-24-04)
+- [https://askubuntu.com/questions/1536271/can-i-install-cuda-11-4-in-ubuntu-24-04-if-so-how](https://askubuntu.com/questions/1536271/can-i-install-cuda-11-4-in-ubuntu-24-04-if-so-how)
+- [v4.5.0 is not compatible with torch>=2.*.*+cu121](https://github.com/OpenNMT/CTranslate2/issues/1806#issue-2610861176)
 
 ```sh
 sudo apt install nvidia-cuda-toolkit nvidia-utils-525 ubuntu-drivers-common unzip
