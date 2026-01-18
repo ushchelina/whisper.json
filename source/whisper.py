@@ -69,13 +69,13 @@ def segments_to_json(segments, total_msec, progress, utc_time_start):
     return data
 
 
-def decode(mp3_file, language=None):
+def decode(mp3_file, device, language=None):
     """Return json data for decoded mp3 file."""
     print("Loading Whisper model...")
     whisper_model = faster_whisper.WhisperModel(
       Model.Large,
-      device=Device.Cpu,
-      compute_type=MTYPES[Device.Cpu]
+      device=device,
+      compute_type=MTYPES[device]
     )
 
     print("Decode {} to wave ...".format(mp3_file))
