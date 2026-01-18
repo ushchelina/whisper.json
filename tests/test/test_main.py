@@ -25,6 +25,9 @@ class TestMain(TestBase):
             return json.load(open(self.fixture('short.json'), 'r', encoding='utf-8'))
 
         main.decode = mock_decode
+
+        assert main.main(options) == 0
+        options.language = 'auto'
         assert main.main(options) == 0
 
         main.decode = decode
