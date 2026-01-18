@@ -1,10 +1,9 @@
 # Преобразование mp3-файлов в текст через Whisper
 
-ushchelina/whisper.json
-
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ushchelina/whisper.json/pep257.yml?label=Pep257&style=plastic&branch=main)](https://github.com/ushchelina/whisper.json/actions?query=workflow%3Apep257)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ushchelina/whisper.json/py3.yml?label=Python%203.10&style=plastic&branch=main)](https://github.com/ushchelina/whisper.json/actions?query=workflow%3Apy3)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/0fa4672064ca46e1926197f16a8fe523)](https://app.codacy.com/gh/ushchelina/whisper.json/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/0fa4672064ca46e1926197f16a8fe523)](https://app.codacy.com/gh/ushchelina/whisper.json/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)
 
 ## Настройка под Windows.
 
