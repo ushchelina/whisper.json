@@ -1,3 +1,4 @@
+"""Cuda checks."""
 import os
 import nvidia.cublas.lib
 import nvidia.cudnn.lib
