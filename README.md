@@ -29,5 +29,6 @@ make json
 
 ## Ссылки
 
+- [Проект faster-whisper](https://github.com/SYSTRAN/faster-whisper)
 - [Адаптация языковой модели vosk](https://habr.com/ru/articles/735480/)
 - [Сравнение Vosk и Whisper](https://habr.com/ru/articles/814057/)
