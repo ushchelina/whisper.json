@@ -17,14 +17,14 @@ class TestMain(TestBase):
             self.fixture('short.mp3'),
             self.build('short.json'),
         ])
-        decode_whisper = main.decode_whisper
+        decode = main.decode
 
         def mock_decode(mp3, language=None):
             """Mock decode function."""
             print(mp3, language)
             return json.load(open(self.fixture('short.json'), 'r', encoding='utf-8'))
 
-        main.decode_whisper = mock_decode
+        main.decode = mock_decode
         assert main.main(options) == 0
 
-        main.decode_whisper = decode_whisper
+        main.decode = decode
