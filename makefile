@@ -26,7 +26,7 @@ xxx:
 	$(PYTHON) $(SOURCE)/main.py build/xxx.mp3 build/xxx.json
 
 json:
-	$(PYTHON) $(SOURCE)/main.py ~/task/xxx.mp3 ~/task/xxx.json
+	$(PYTHON) $(SOURCE)/main.py ~/task/xxx.mp3 ~/task/task.json
 
 test:
 	$(PTEST) -s $(TESTS)/test/$(T)
